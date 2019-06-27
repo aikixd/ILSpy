@@ -27,6 +27,7 @@
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
