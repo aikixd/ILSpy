@@ -34,6 +34,8 @@ namespace ICSharpCode.Decompiler.Tests
 		[Test]
 		public void AllFilesHaveTests()
 		{
+			System.Diagnostics.Debugger.Break();
+
 			var testNames = GetType().GetMethods()
 				.Where(m => m.GetCustomAttributes(typeof(TestAttribute), false).Any())
 				.Select(m => m.Name)
